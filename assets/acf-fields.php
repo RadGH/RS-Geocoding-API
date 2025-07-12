@@ -1,0 +1,61 @@
+<?php
+
+add_action( 'acf/include_fields', function() {
+	if ( ! function_exists( 'acf_add_local_field_group' ) ) {
+		return;
+	}
+	
+	acf_add_local_field_group( array(
+		'qef_simple_location_rules' => 0,
+		'key' => 'group_67ae7bd6451b6',
+		'title' => 'RS Geocoding API - Settings',
+		'fields' => array(
+			array(
+				'allow_backendsearch' => 0,
+				'show_column_filter' => false,
+				'allow_bulkedit' => 0,
+				'allow_quickedit' => 0,
+				'show_column' => 0,
+				'show_column_weight' => 1000,
+				'show_column_sortable' => false,
+				'key' => 'field_67ae7bd7f000d',
+				'label' => 'Google Geocoding API Key',
+				'name' => 'google_geocoding_api_key',
+				'aria-label' => '',
+				'type' => 'text',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => '',
+				'maxlength' => '',
+				'allow_in_bindings' => 0,
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'options_page',
+					'operator' => '==',
+					'value' => 'rsga-settings',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'left',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => 'Options Page: Settings > RS Geocoding API',
+		'show_in_rest' => 0,
+	) );
+} );
