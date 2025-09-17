@@ -5,8 +5,8 @@ Description: Allows you to perform Geocoding API requests using a Google Geocodi
 Version: 1.2.2
 Author: Radley Sustaire
 Author URI: https://radleysustaire.com/
-GitHub Plugin URI: 
-GitHub Branch: 
+GitHub Plugin URI: https://github.com/RadGH/RS-Geocoding-API/
+GitHub Branch: master
 */
 
 define( 'RSGA_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
