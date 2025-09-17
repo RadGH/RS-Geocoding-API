@@ -2,7 +2,7 @@
 /*
 Plugin Name: RS Geocoding API
 Description: Allows you to perform Geocoding API requests using a Google Geocoding API key. Results are stored in the database for future use of the same address.
-Version: 1.2.2
+Version: 1.2.3
 Author: Radley Sustaire
 Author URI: https://radleysustaire.com/
 GitHub Plugin URI: https://github.com/RadGH/RS-Geocoding-API/
@@ -11,7 +11,7 @@ GitHub Branch: master
 
 define( 'RSGA_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'RSGA_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
-define( 'RSGA_VERSION', '1.2.2' );
+define( 'RSGA_VERSION', '1.2.3' );
 
 class RS_Geocoding_API_Plugin {
 	
