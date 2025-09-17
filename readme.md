@@ -6,7 +6,7 @@ Results are stored in the database to reduce the number of requests to the Googl
 
 This plugin **requires** a Google Geocoding API key. Add it under Settings > RS Geocoding API.
 
-- [View this plugin on ZingMap.com](https://zingmap.com/plugin/rs-geocoding-api/)
+- [View this plugin on Zingmap.com](https://zingmap.com/plugin/rs-geocoding-api/)
 
 ### Usage:
 
