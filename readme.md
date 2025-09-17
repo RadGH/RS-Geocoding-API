@@ -23,5 +23,8 @@ $item = array(
 
 ## Changelog
 
+### 1.2.3
+- Added Git Updater support
+
 ### 1.2.2
 - Initial release
